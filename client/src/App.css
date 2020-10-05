@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+  background-image: url(./clouds.png);
+  background-size: 100%;
+  color: white;
+  padding: 20px;
+}
+
+.messagesContainer{
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  width: 40%;
+  margin: auto;
+  word-wrap: break-word;
+
+}
+
+.my-msg {
+  background-color: rgb(84,238,114);
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px auto;
+  width: 70%;
+  float: right;
+  margin-left: 60%;
+  box-shadow: 5px 10px 18px #6e6c6c;
+  color: black;
+
+
+}
+
+.other-msg {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px auto;
+  width: 70%;
+  margin-right: 60%;
+  float: left;
+  box-shadow: 5px 10px 18px #6e6c6c;
+
+}
+
+input {
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  margin: 10px;
+  height: 2em;
+  border: none;
+  transition: 100ms;
+}
+
+
+
+button {
+  background-color: #333;
+  color:white;
+  font-weight: bold;
+  height: 2.5em;
+  padding: 5px;
+  border-radius: 10px;
+  border: solid 2px white;
+  cursor: pointer;
+  transition: 100ms;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:hover, input:hover {
+  transform: scale(1.05);
+}
+
+p {
+  margin: 3px;
+}
